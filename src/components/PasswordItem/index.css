@@ -1,0 +1,123 @@
+.password-item-container {
+  border: 2px solid #7683cb;
+  list-style-type: none;
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+  width: 30%;
+}
+
+@media screen and (max-width: 576px) {
+  .password-item-container {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+.first-letter {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding: 10px;
+  border-radius: 50px;
+  margin: 0px;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.data-delete-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.letter-data-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.website,
+.username,
+.password {
+  color: #000000;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.delete-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.delete-icon {
+  height: 32px;
+  width: 32px;
+}
+
+.star-icon {
+  width: 80%;
+  margin-top: 5px;
+}
+
+/* 
+
+  const colorsList = [
+    'blue',
+    'violet',
+    'orange',
+    'green',
+    'purple',
+    'lightGreen',
+    'brown',
+    'skyBlue',
+  ]
+*/
+
+.blue {
+  background-color: #0b69ff;
+}
+.violet {
+  background-color: #7683cb;
+}
+
+.orange {
+  background-color: #f59e0b;
+}
+
+.green {
+  background-color: #10b981;
+}
+
+.purple {
+  background-color: #f97316;
+}
+
+.lightGreen {
+  background-color: #14b8a6;
+}
+
+.brown {
+  background-color: #b91c1c;
+}
+.skyBlue {
+  background-color: #0ea5e9;
+}
